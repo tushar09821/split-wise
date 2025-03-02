@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("api/group")
 public class GroupsController {
     public ResponseEntity<?> createGroup(){
-        return ResponseEntity.ok().build()git;
+        return ResponseEntity.ok().build();
     }
 }
